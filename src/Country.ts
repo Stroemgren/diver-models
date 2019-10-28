@@ -1,4 +1,4 @@
-export type ICountry = {
+export type Country = {
     id: string
     name: string
 }
