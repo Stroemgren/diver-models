@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Stroemgren/diver-models#readme",
   "dependencies": {
     "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }
