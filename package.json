@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Stroemgren/diver-models/issues"
   },
-  "homepage": "https://github.com/Stroemgren/diver-models#readme"
+  "homepage": "https://github.com/Stroemgren/diver-models#readme",
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
 }
