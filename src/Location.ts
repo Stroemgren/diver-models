@@ -16,9 +16,11 @@ export const Location = (
     coordinate: Coordinate,
     entryType: EntryType,
     experienceLevel: ExperienceLevel,
-    locationType: LocationType
+    locationType: LocationType,
+    minDepth: number,
+    maxDepth: number
 ) => ({
-	id, name, description, city, country, coordinate, entryType, experienceLevel, locationType
+	id, name, description, city, country, coordinate, entryType, experienceLevel, locationType, minDepth, maxDepth
 })
 
 export interface Location extends ReturnType<typeof Location> {}
