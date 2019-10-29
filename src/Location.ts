@@ -32,7 +32,9 @@ export const LocationForm = (
 	longitude: number,
 	entryType: EntryType,
 	requiredLevel: ExperienceLevel,
-    locationType: LocationType
+    locationType: LocationType,
+    minDepth: number,
+    maxDepth: number
 ) => ({
 	name,
 	description,
@@ -42,7 +44,9 @@ export const LocationForm = (
 	longitude,
 	entryType,
 	requiredLevel,
-	locationType
+	locationType,
+	minDepth,
+	maxDepth
 })
 
 export interface LocationForm extends ReturnType<typeof LocationForm> {}
