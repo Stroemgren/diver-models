@@ -11,7 +11,7 @@ export const Location = (
 	id: string,
     name: string,
     description: string,
-    city: City,
+    city: City | null,
     country: Country,
     coordinate: Coordinate,
     entryType: EntryType,
