@@ -5,5 +5,5 @@ exports.City = (id, name) => ({
     id, name
 });
 exports.CityForm = (name, country_id) => ({
-    id: 'ci_' + uuidv4(), name, country_id
+    name, country_id
 });
