@@ -5,7 +5,7 @@ import { City } from "./City"
 
 export type EntryType = 'Shore' | 'Boat'
 export type ExperienceLevel = 'Open Water' | 'Advanced Open Water'
-export type LocationType = 'Reef' | 'Wreck' | 'Wall' | 'Cave'
+export type LocationType = 'Reef' | 'Wreck' | 'Wall' | 'Cave' | 'Other'
 
 export const Location = (
 	id: string,
