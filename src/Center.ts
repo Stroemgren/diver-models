@@ -32,7 +32,7 @@ export interface Center extends ReturnType<typeof Center> {}
 
 export const CenterForm = (
 	name: string,
-	address: AdressForm,
+	address: AddressForm,
 	latitude: number,
 	longitude: number,
 	phone: string,
