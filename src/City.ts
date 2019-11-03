@@ -6,7 +6,7 @@ export const City = (id: string, name: string) => ({
 
 export interface City extends ReturnType<typeof City> {}
 
-export const CityForm = (name: string, country_id) => ({
+export const CityForm = (name: string, country_id: string) => ({
 	name, country_id
 })
 

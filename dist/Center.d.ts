@@ -1,13 +1,13 @@
 import { Address } from './Address';
 import { Coordinate } from './Coordinate';
 import { AddressForm } from './Address';
-export declare const Center: (id: string, name: string, address: Address, coordinate: Coordinate, phone: string, email: string, website: string, facebook: string, twitter: string, instagram: string, youtube: string) => {
+export declare const Center: (id: string, name: string, address: Address, coordinate: Coordinate, phone: string, email: string | null, website: string, facebook: string, twitter: string, instagram: string, youtube: string) => {
     id: string;
     name: string;
     address: Address;
     coordinate: Coordinate;
     phone: string;
-    email: string;
+    email: string | null;
     website: string;
     facebook: string;
     twitter: string;

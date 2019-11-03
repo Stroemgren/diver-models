@@ -3,8 +3,12 @@
     "target": "es6",
     "outDir": "dist",
     "module": "commonjs",
+    "strictNullChecks": true,
     "removeComments": true,
-    "declaration": true
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": false,
+    "strict": true
   },
   "include": [
     "src/index.ts"
