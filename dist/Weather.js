@@ -9,4 +9,7 @@ exports.WeatherDay = (date, weekday, minTemp, maxTemp, windSpeed, windDirection,
     windDirection,
     icon
 });
-exports.FiveDayForecast = (day1, day2, day3, day4, day5) => ([day1, day2, day3, day4, day5]);
+exports.FiveDayForecast = (coordinate, day1, day2, day3, day4, day5) => ({
+    coordinate,
+    days: [day1, day2, day3, day4, day5]
+});

@@ -1,3 +1,5 @@
+import { Coordinate } from './Coordinate'
+
 export const WeatherDay = (
 	date: string,
 	weekday: string,
@@ -19,11 +21,15 @@ export const WeatherDay = (
 export interface WeatherDay extends ReturnType<typeof WeatherDay> {}
 
 export const FiveDayForecast = (
+	coordinate: Coordinate,
 	day1: WeatherDay,
 	day2: WeatherDay,
 	day3: WeatherDay,
 	day4: WeatherDay,
 	day5: WeatherDay,
-) => ([day1, day2, day3, day4, day5])
+) => ({
+	coordinate,
+	days: [day1, day2, day3, day4, day5]
+})
 
 export interface FiveDayForecast extends ReturnType<typeof FiveDayForecast> {}
