@@ -1,9 +1,10 @@
-export declare const WeatherDay: (date: string, weekday: string, minTemp: number, maxTemp: number, wind: number, icon: string) => {
+export declare const WeatherDay: (date: string, weekday: string, minTemp: number, maxTemp: number, windSpeed: number, windDirection: number, icon: string) => {
     date: string;
     weekday: string;
     minTemp: number;
     maxTemp: number;
-    wind: number;
+    windSpeed: number;
+    windDirection: number;
     icon: string;
 };
 export interface WeatherDay extends ReturnType<typeof WeatherDay> {

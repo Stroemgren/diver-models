@@ -3,14 +3,16 @@ export const WeatherDay = (
 	weekday: string,
 	minTemp: number,
 	maxTemp: number,
-	wind: number,
+	windSpeed: number,
+	windDirection: number,
 	icon: string
 ) => ({
 	date,
 	weekday,
 	minTemp,
 	maxTemp,
-	wind,
+	windSpeed,
+	windDirection,
 	icon
 })
 
