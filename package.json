@@ -1,6 +1,6 @@
 {
   "name": "diver-models",
-  "version": "6.0.14",
+  "version": "6.0.15",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
