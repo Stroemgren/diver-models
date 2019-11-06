@@ -4,7 +4,7 @@ import { City } from "./City";
 export declare type EntryType = 'Shore' | 'Boat';
 export declare type ExperienceLevel = 'Open Water' | 'Advanced Open Water';
 export declare type LocationType = 'Reef' | 'Wreck' | 'Wall' | 'Cave' | 'Other';
-export declare const Location: (id: string, name: string, description: string, city: City | null, country: Country, coordinate: Coordinate, entryType: EntryType, experienceLevel: ExperienceLevel, locationType: LocationType, minDepth: number, maxDepth: number) => {
+export declare const Location: (id: string, name: string, description: string, city: City | null, country: Country, coordinate: Coordinate, entryType: EntryType, experienceLevel: ExperienceLevel, locationType: LocationType, minDepth: number, maxDepth: number, images: string[], coverImage: string) => {
     id: string;
     name: string;
     description: string;
@@ -16,6 +16,8 @@ export declare const Location: (id: string, name: string, description: string, c
     locationType: LocationType;
     minDepth: number;
     maxDepth: number;
+    images: string[];
+    coverImage: string;
 };
 export interface Location extends ReturnType<typeof Location> {
 }
