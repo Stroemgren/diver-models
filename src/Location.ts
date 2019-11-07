@@ -20,7 +20,7 @@ export const Location = (
     minDepth: number,
     maxDepth: number,
     images: string[],
-    coverImage: string
+    coverImage: string | null
 ) => ({
 	id, name, description, city, country, coordinate, entryType, experienceLevel, locationType, minDepth, maxDepth, images, coverImage
 })
