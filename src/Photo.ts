@@ -1,5 +1,5 @@
 export const Photo = (photo_id: string) => {
-	const baseUrl: 'https://res.cloudinary.com/duob2cdih/image/upload'
+	const baseUrl = 'https://res.cloudinary.com/duob2cdih/image/upload'
 
 	return {
 		thumb: `${baseUrl}/c_scale,w_100/${photo_id}`,

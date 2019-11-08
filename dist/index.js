@@ -8,4 +8,5 @@ __export(require("./Center"));
 __export(require("./City"));
 __export(require("./Country"));
 __export(require("./Location"));
+__export(require("./Photo"));
 __export(require("./Weather"));
